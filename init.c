@@ -26,7 +26,7 @@ void init_main(void)
 	_T3IE=0;               //允许中断
 	_T3IP=5;              //中断优先级=5 低
 //TIME2 30ms*******************************************************************
-	T2CONbits.TON=1;       //time3 on
+	T2CONbits.TON=0;       //time3 on
 	T2CONbits.TCS=0;       //内部时钟（FOSC/2）
 	T2CONbits.TCKPS=0B01;  //11 = 1:64
 	PR2=50000;                //Timer3 周期寄存  0.1秒中断 0.125*256*3125=0.1秒

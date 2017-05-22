@@ -318,7 +318,7 @@ AD_DIANYA_DIR=1;
 		ad_lc=0;
 		ad_bz=1;
 	}
-	if(ad_bz==1&&ad_cytimes==8&&ad_tdbz==0)
+ 	if(ad_bz==1&&ad_cytimes==8&&ad_tdbz==0)
 	{
 		ad_bmax[ad_lc]=ad_amax;
 

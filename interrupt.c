@@ -56,7 +56,7 @@ void __attribute__((__interrupt__,no_auto_psv)) _CNInterrupt(void); //电平变化中
 void __attribute__((__interrupt__,no_auto_psv)) _U1RXInterrupt(void);
 void __attribute__((__interrupt__,no_auto_psv)) _U1TXInterrupt(void);
 
-
+/*
 void __attribute__((__interrupt__)) _T2Interrupt(void)
 {
 
@@ -67,6 +67,7 @@ void __attribute__((__interrupt__)) _T2Interrupt(void)
     //toggle(bMark);
 
 }
+*/
 
 void __attribute__((__interrupt__)) _T5Interrupt(void)
 {
