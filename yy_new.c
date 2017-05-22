@@ -181,10 +181,10 @@ void yy_check()
 
     }
 
+    // to send collected data regularly
     if(bMark == 1){
-
         
-        outStr("hello\n", 6);
+        send_collected_data();
         bMark = 0;
 
     }
